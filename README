@@ -1,4 +1,4 @@
-Simple JIRA add-on which allows a user to enter a String, containing any sort of characters and parenthesis "(" and ")".
+Simple JIRA add-on which allows user to enter a String, containing any sort of characters and parenthesis "(" and ")".
 
 To check if it works do the following: type 'gg' -> type 'manage addons' ->
 check whether plugin is installed or not -> go to the 'Issues' - >
