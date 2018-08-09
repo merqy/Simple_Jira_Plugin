@@ -1,0 +1,15 @@
+Simple JIRA add-on which allows a user to enter a String, containing any sort of characters and parenthesis "(" and ")".
+
+To check if it works do the following: type 'gg' -> type 'manage addons' ->
+check whether plugin is installed or not -> go to the 'Issues' - >
+create custom field -> advanced -> BalancedParenthesis.
+
+Then create some project and add a new field, choose BalancedParenthesis and try it out.
+
+* atlas-run   -- installs this plugin into the product and starts it on localhost
+* atlas-debug -- same as atlas-run, but allows a debugger to attach at port 5005
+* atlas-cli   -- after atlas-run or atlas-debug, opens a Maven command line window:
+                 - 'pi' reinstalls the plugin into the running product instance
+* atlas-help  -- prints description for all commands in the SDK
+
+
